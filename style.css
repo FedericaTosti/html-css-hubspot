@@ -1,0 +1,368 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* box fisso */
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box-fisso{
+  background-color: #F5F8FA;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid grey;
+  padding-top: 25px;
+}
+
+.idioma{
+  float: left;
+  margin-left: 180px;
+}
+
+.idioma span{
+  font-size: 20px;
+  padding: 0 10px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+.idioma a {
+  color: black;
+  text-decoration: none;
+}
+
+.login{
+  float: right;
+  margin-right: 180px;
+}
+
+.login .log-in{
+  background-color: white;
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.login a{
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 3px;
+}
+
+/* nav */
+.box-nav{
+  margin: 100px 150px 0;
+}
+
+.box-nav img{
+  height: 30px;
+  cursor: pointer;
+}
+
+.box-nav .lista{
+  float: right;
+}
+
+.lista ul li{
+  display: inline-block;
+  padding: 10px 45px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.lista a{
+  text-decoration: none;
+}
+
+/* sezione jumbotron */
+
+.sez-jumbotron{
+  height: 600px;
+  background-image: url(img/jumbotron.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron{
+  width: 35%;
+  padding: 40px;
+  margin: 20px;
+}
+
+.jumbotron h1{
+  font-size: 50px;
+}
+
+.jumbotron p{
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.jumbotron a{
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 3px;
+}
+
+/* sezione cubo */
+.cubo{
+  width: 50%;
+  text-align: center;
+  margin:auto;
+}
+
+.cubo img{
+  width: 35%;
+  padding: 10px;
+}
+
+.cubo h1{
+  font-size: 40px;
+  padding: 10px;
+}
+
+.cubo p{
+  font-size: 20px;
+  padding: 20px;
+}
+
+/* sezione scelta */
+/* free */
+
+.dati img{
+  width: 80%;
+  padding: 15px;
+}
+
+.free{
+  width: 55%;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.dati{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.dati a{
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.dati-testo{
+  float: right;
+  width: 60%;
+}
+
+.dati-testo p{
+  padding: 10px 10px 15px 0;
+}
+
+.dati-testo ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 15px 15px 15px 0;
+}
+
+/* colonne */
+.colonne{
+  width: 100%;
+  margin: 20px 80px;
+  padding: 25px;
+}
+
+.colonne img{
+  width: 50%;
+  padding: 20px;
+}
+
+.colonna-sinistra{
+  width: 20%;
+  float: left;
+  text-align: center;
+  padding: 15px;
+  margin: 0 40px;
+}
+
+.colonna-centrale{
+  width: 20%;
+  float: left;
+  text-align: center;
+  padding: 15px;
+  margin: 0 40px;
+}
+
+.colonna-destra{
+  width: 20%;
+  float: left;
+  text-align: center;
+  padding: 15px;
+  margin: 0 40px;
+}
+
+.get{
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 3px;
+  margin: 20px;
+}
+
+.colonne h2{
+  padding: 10px;
+}
+
+.colonne p{
+  padding: 10px;
+}
+
+.colonne ul{
+  padding: 20px;
+}
+
+.colonne ul li{
+  list-style: none;
+}
+
+/* sezione griglia */
+.griglia{
+  background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
+}
+
+.container-griglia{
+  padding: 70px;
+}
+
+.griglia span{
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  width: 70%;
+  margin: 50px 100px;
+}
+
+.blocco{
+  width: 20%;
+  text-align: center;
+  float:left;
+  padding: 40px;
+}
+
+.blocco img{
+  width: 70px;
+  height: 50px;
+}
+
+.blocco h4{
+  color: white;
+  font-size: 50px;
+}
+
+.blocco p{
+  color: white;
+  font-size: 18px;
+}
+
+.prima-riga .blocco{
+  border-bottom: 2px solid white;
+}
+
+.blocco{
+  border-right: 2px solid white;
+}
+
+/* sezione aziende */
+
+.customer{
+  font-size: 20px;
+  width: 50%;
+  padding: 50px;
+}
+
+.customer h1{
+  font-size: 50px;
+}
+
+.customer p{
+  font-size: 20px;
+}
+
+.partnership{
+  width: 50%;
+  float: right;
+}
+
+/* Start Growing */
+
+.start-growing{
+  width: 50%;
+  float: left;
+  padding: 15px;
+}
+
+.foto img{
+  width: 250px;
+  float: right;
+  margin-right: 160px;
+  padding: 15px;
+}
+
+.start-growing h1{
+  font-size: 30px;
+  padding: 30px 50px;
+}
+
+.start-growing p{
+  font-size: 20px;
+  padding: 25px 50px;
+  opacity: 0.5;
+}
+
+.start-growing a{
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 3px;
+  margin: 50px;
+}
+
+/* footer */
+footer{
+  background-color: #33475B;
+  font-size: 20px;
+  color: white;
+}
+
+
+.lista li a{
+  text-decoration: none;
+  color: white;
+}
+
+.button{
+  float: right;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 50px;
+}
